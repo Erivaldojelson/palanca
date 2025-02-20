@@ -1,0 +1,177 @@
+.animated-img {
+    transition: transform 0.3s ease-out;
+}
+
+/* Estilizando a área do menu lateral */
+.offcanvas-body {
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilizando a lista do menu */
+.offcanvas-body ul {
+    padding: 0; /* Remove o espaçamento padrão */
+    margin: 0;
+}
+
+/* Estilizando os itens da lista */
+.offcanvas-body ul li {
+    margin-bottom: 10px; /* Adiciona espaço entre os itens */
+}
+
+/* Estilizando os links do menu */
+.offcanvas-body .nav-link {
+    font-family: 'Poppins', sans-serif; /* Fonte personalizada */
+    font-size: 18px; /* Tamanho do texto */
+    font-weight: 600; /* Deixa o texto mais forte */
+    color: #333; /* Cor padrão do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s; /* Efeito suave */
+}
+
+/* Estilizando o primeiro item do menu */
+.offcanvas-body ul li:first-child .nav-link {
+    font-family: Georgia serif; /* Fonte diferente */
+    font-size: 20px; /* Deixa o primeiro item maior */
+    font-weight: bold; /* Texto mais destacado */
+   
+}	
+
+
+/* Estilizando o texto "Palanca Roupas" */
+.navbar-brand {
+    font-family: 'Kuenstler script Pro' , 'Playfair Display'; /* Escolha a fonte desejada */
+    font-size: 15px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto mais forte */
+    color: #a72855; /* Cor verde (você pode mudar para outra cor) */
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+}
+
+/* Efeito de hover no botão */
+.btn-outline-success:hover {
+    background-color: #a72863; /* Cor de fundo ao passar o mouse */
+    color: white;               /* Cor do texto ao passar o mouse */
+}
+
+
+
+/* Ajuste de altura da navbar */
+.navbar {
+    min-height: 70px; /* Altere conforme a necessidade */
+}
+
+/* Estilização do botão de hambúrguer */
+.navbar-toggler {
+    border-color: #e8f1ea; /* Cor do contorno */
+}
+
+.navbar-toggler-icon {
+    background-color: #e9eeea; /* Cor do ícone do hambúrguer */
+}
+
+/* Estilo do menu lateral (offcanvas) */
+.offcanvas {
+    background-color: #f8f9fa; /* Cor de fundo do menu */
+}
+
+.offcanvas-header {
+    background-color: #f6f7f6; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+}
+
+.offcanvas-body {
+    padding: 15px; /* Espaçamento interno */
+}
+
+/* Estilo dos links no menu lateral */
+.offcanvas .nav-link {
+    color: #333; /* Cor do texto */
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+/* Estilo do formulário de pesquisa */
+.form-control {
+    border-radius: 25px; /* Bordas arredondadas */
+}
+
+.btn-outline-success {
+    border-radius: 25px; /* Bordas arredondadas */
+    color: #6b1d43;
+    border-color: #88273c;
+    
+}
+
+.container {
+    display: grid;
+    place-items: center; /* Centraliza horizontal e verticalmente */
+    height: 100vh;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px; /* Espaço de 2 linhas entre as imagens */
+    transition: transform 0.1s ease-in-out; /* Adiciona a transição */
+    position: relative; /* Necessário para transform funcionar */
+}
+
+img:hover {
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+    opacity: 0.9; /* Reduz um pouco a opacidade */
+    z-index: 2; /* Eleva a imagem enquanto é ampliada */
+}
+
+
+.animated-img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; /* Espaço de 2 linhas entre as imagens */
+    transition: transform 0.5s ease-in-out; /* Adiciona a transição */
+    position: relative; /* Necessário para transform funcionar */
+}
+
+h1 {
+    font-family: sans-serif; /* Fonte personalizada */
+    font-size: 25px; /* Tamanho do texto */
+    font-weight: 300; /* Deixa o texto mais forte */
+    color: #333; /* Cor padrão do texto */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 10px; /* Espaço após o texto */
+}
+
+/* Estiliza a legenda */
+figcaption {
+    font-size: 14px; /* Tamanho do texto */
+    font-weight: 500; /* Deixa um pouco mais marcante */
+    color: #555; /* Cinza sofisticado */
+    margin-top: 5px; /* Espaço entre a imagem e a legenda */
+}
+
+/* Torna as imagens mais elegantes */
+figure img {
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease-in-out; /* Animação suave ao passar o mouse */
+}
+
+/* Efeito hover nas imagens */
+figure:hover img {
+    transform: scale(1.05); /* Aumenta um pouco ao passar o mouse */
+}
+
+
+
+
