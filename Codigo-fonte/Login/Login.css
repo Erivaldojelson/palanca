@@ -1,0 +1,94 @@
+body {
+    background: #fdfaf5;
+    font-family: 'Playfair Display', serif;
+    color: #1a1a1a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+input.form-control {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.25);
+    color: #1a1a1a;
+    font-size: 1rem;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+}
+
+input.form-control:focus {
+    border-color: rgba(179,139,93,0.6);
+    box-shadow: 0 0 10px rgba(179,139,93,0.2);
+    outline: none;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    background: rgba(179,139,93,0.35);
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    border: 1px solid rgba(255,255,255,0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+}
+
+.btn-login:hover {
+    background: rgba(179,139,93,0.65);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.login-message {
+    margin-top: 15px;
+    font-size: 0.95rem;
+    color: #b38b5d;
+    font-weight: 500;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.forgot-password a {
+    color: #b38b5d;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.forgot-password a:hover {
+    color: #997c5a;
+}
