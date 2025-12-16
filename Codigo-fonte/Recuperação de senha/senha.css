@@ -1,0 +1,99 @@
+body {
+  min-height: 100vh;
+  background: #f5f5f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.card-clean {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  padding: 40px;
+  max-width: 420px;
+  width: 100%;
+}
+
+.card-clean h2 {
+  font-weight: 600;
+  color: #1f1f1f;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.btn-dark {
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.confirm-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirm-box {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 30px 40px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+}
+
+.back-login {
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.back-login a {
+  color: #1f1f1f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-login a:hover {
+  text-decoration: underline;
+}
+
+/* ================= ANIMAÇÃO DO BANNER ================= */
+
+.confirm-overlay {
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.confirm-box {
+  animation: slideUp 0.45s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
